@@ -1,0 +1,34 @@
+.calculator-container {
+  width: 400px;
+  height: 551px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: grey;
+  border: 2px solid grey;
+}
+
+.buttons-container {
+  width: 100%;
+  display: flex;
+}
+
+.buttons-container button {
+  font-size: 2rem;
+}
+
+.numbers-container {
+  width: 75%;
+}
+
+.actions-container {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.large-button {
+  width: 99.9%;
+  border-radius: 0%;
+  border: 1px solid grey;
+  height: 90px;
+}

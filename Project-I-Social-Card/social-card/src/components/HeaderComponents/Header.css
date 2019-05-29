@@ -1,1 +1,43 @@
 /* All styles for your header Components live here */
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-container img {
+  width: 70px;
+  height: 80px;
+  padding: 10px;
+}
+
+.header-container div {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container div {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container div .timestamp-container {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+.header-container div .timestamp-container h3 {
+  margin: 16px 0px;
+}
+
+.header-container div .timestamp-container p {
+  padding: 2px 5px 0px;
+  color: grey;
+  font-weight: 200;
+}
+
+.header-content {
+  margin: 0;
+  padding-bottom: 10px;
+}
